@@ -26,6 +26,23 @@ section#p{
     background: url(imagens/frame-iphone.png) no-repeat;
 }
 
+img{
+    width: 50px;
+    display: grid;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.227);
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+a > img:hover{
+    transform:scale(1.5)
+    
+
+}
+
+
 iframe#tela{
     position: relative;
     top: 80px;
