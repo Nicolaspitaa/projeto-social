@@ -24,6 +24,8 @@ section#p{
     top: 50%;
     transform: translate(-50%, -50%);
     background: url(imagens/frame-iphone.png) no-repeat;
+    transition: transform 0.3s ease-in-out;
+
 }
 
 img{
@@ -32,7 +34,7 @@ img{
     margin: 20px;
     border-radius: 15px;
     box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.227);
-    transition: transform 0.3s ease-in-out;
+    
     
 }
 
